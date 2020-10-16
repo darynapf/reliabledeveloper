@@ -1,0 +1,91 @@
+body {
+  margin: 0px; }
+
+.container {
+  font-family: Helvetica, sans-serif;
+  background: url("../img/first_background.png") no-repeat center center fixed;
+  background-position: center; }
+
+.header {
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  background: #fff; }
+  .header__logotype svg {
+    fill: #4E254F;
+    width: 125px;
+    height: 48px;
+    cursor: pointer; }
+  .header__language {
+    display: flex;
+    gap: 24px;
+    margin-right: auto;
+    margin-left: 55px; }
+    .header__language a {
+      text-decoration: none;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4E254F;
+      opacity: 25%; }
+
+.content__information {
+  display: flex;
+  max-width: 792px;
+  height: 352px;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 80px;
+  padding-left: 40px;
+  margin: 296px 0px 0px 180px;
+  background: #9ACCC2;
+  color: #4E254F; }
+  .content__information h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    color: #4E254F;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0px; }
+  .content__information p {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E254F;
+    width: 647px; }
+
+.content__sale {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 16px;
+  max-width: 948px;
+  background: #4E254F;
+  color: #9ACCC2; }
+  .content__sale a {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.25;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px; }
+  .content__sale h3 {
+    margin: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px; }
+  .content__sale p {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9ACCC2;
+    opacity: 0.75; }
