@@ -10,6 +10,7 @@
 
 <body>
     <div class="container">
+        <div class="sub"></div>
         <header class="header">
             <div class="header__logotype">
                 <a href="#">
@@ -27,39 +28,76 @@
                 <a href="#">EN</a>
             </div>
             <div class="header__menu">
-                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H4V4H0V0ZM14 0H18V4H14V0ZM32 0H28V4H32V0ZM0 14H4V18H0V14ZM18 14H14V18H18V14ZM28 14H32V18H28V14ZM4 28H0V32H4V28ZM14 28H18V32H14V28ZM32 28H28V32H32V28Z"/>
+                <svg class="menu-icon" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H4V4H0V0ZM14 0H18V4H14V0ZM32 0H28V4H32V0ZM0 14H4V18H0V14ZM18 14H14V18H18V14ZM28 14H32V18H28V14ZM4 28H0V32H4V28ZM14 28H18V32H14V28ZM32 28H28V32H32V28Z"/>
                 </svg>
+                <svg class="close-icon" width="57" height="58" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="29" width="4" height="4" transform="rotate(-45 0 29)" fill="#4E254F" fill-opacity="0.25"/>
+            <rect x="25.4561" y="3.54443" width="4" height="4" transform="rotate(-45 25.4561 3.54443)" fill="#4E254F" fill-opacity="0.25"/>
+            <rect x="26.2842" y="27" width="4" height="4" fill="#4E254F"/>
+            <path d="M25.4558 29.0001L13.061 41.3949L15.8895 44.2233L28.2842 31.8286L40.6699 44.2142L43.4983 41.3858L31.1127 29.0001L43.5075 16.6053L40.6791 13.7769L28.2842 26.1717L15.8983 13.7858L13.0699 16.6142L25.4558 29.0001Z" fill="#4E254F"/>
+            <rect x="25.4561" y="54.4561" width="4" height="4" transform="rotate(-45 25.4561 54.4561)" fill="#4E254F" fill-opacity="0.25"/>
+            <rect x="50.9116" y="29" width="4" height="4" transform="rotate(-45 50.9116 29)" fill="#4E254F" fill-opacity="0.25"/>
+        </svg>
             </div>
         </header>
+        <div class="menu">
+            <svg viewBox="0 0 1920 1" xmlns="http://www.w3.org/2000/svg">
+                <line x1="4.37114e-08" y1="0.5" x2="1920" y2="0.500168"/>
+            </svg>
+            <nav class="menu__item">
+                <a href="#">Головна</a>
+                <a href="#">Про компанію</a>
+                <a href="#">Варіанти придбання</a>
+                <a href="#">Варіанти інвестування</a>
+                <a href="#">Новини</a>
+                <a href="#">Документи</a>
+                <a href="#">Контакти</a>
+                <a href="#">Співробітництво</a>
+            </nav>
+            <a class="copyright" href="#">Дизайн та розробка - Svitsoft</a>
+        </div>
         <article class="content">
+            <div class="content__button">
+                <a class="main-button" href="#">Про компанію
+                    <svg width="22" height="64" viewBox="0 0 22 64"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 64L21 0"/>
+                    </svg>
+                    <svg width="17" height="18" viewBox="0 0 17 18" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 17L16 9M16 9L8 1M16 9L1.39876e-06 9" />
+                    </svg>
+                </a>
+            </div>
             <div class="content__information">
                 <h1>Надійний забудовник</h1>
                 <p>– это 7 лет успешной работы на украинском рынке. Более 700 квартир уже продано, а в планах компании построить 120 тыс. метров жилой площади.</p>
             </div>
-            <div class="content__sale">
-                <div class="content__sale__pages">
-                    <a href="#">01</a>
-                    <a href="#">02</a>
-                    <a href="#">03</a>
-                    <a href="#">04</a>
+            <div class="bottom-container">
+                <div class="arrows">
+                    <svg class="left" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M63.3187 0.5L43.5153 63.5H0.681292L20.4848 0.5H63.3187Z" stroke="white"/>
+                        <path d="M32 24L24 32M24 32L32 40M24 32H40" />
+                    </svg>
+                    <svg class="right" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.1178 0L0 64H43.8822L64 0H20.1178Z"/>
+                        <path d="M32 24L40 32M40 32L32 40M40 32H24" stroke="white"/>
+                    </svg>
                 </div>
-                <h3>Акційна пропозиція №1</h3>
-                <p>Забудовник – это 5 лет успешной работы на украинском рынке. Успешной работы на украинском рынке.</p>
+                <div class="content__sale">
+                    <div class="container-inf">
+                        <div class="content__sale__pages">
+                            <a href="#">01</a>
+                            <a href="#">02</a>
+                            <a href="#">03</a>
+                            <a href="#">04</a>
+                        </div>
+                        <h3>Акційна пропозиція №1</h3>
+                        <p>Забудовник – это 5 лет успешной работы на украинском рынке. Успешной работы на украинском рынке.</p>
+                    </div>
+                    <div class="content__sale__picture"></div>
+                </div>
             </div>
-            <div class="content__button">
-                <a class="content__button__link" href="#">
-                    На Головну
-                    <span class="content__button__icons">                
-                        <svg width="18" height="48" viewBox="0 0 18 48" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 48L17 0"/>
-                        </svg>
-                        <svg width="17" height="18" viewBox="0 0 17 18" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 17L16 9M16 9L8 1M16 9L1.39876e-06 9"/>
-                        </svg>
-                    </span>
-                </a>
-            </div>
+
         </article>
     </div>
     <script src="index.js"></script>
