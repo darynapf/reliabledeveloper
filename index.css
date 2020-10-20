@@ -11,7 +11,7 @@ body {
 
 .container {
   font-family: "HelveticaNeueCyr";
-  background: url("../img/first_background.png") no-repeat center center fixed;
+  background: url("img/first_background.png") no-repeat center center fixed;
   background-position: center;
   overflow: hidden; }
 
@@ -208,7 +208,7 @@ body {
     padding-left: 56px;
     padding-top: 16px; }
   .content__sale .container-inf {
-    background: url("../img/sub2.svg") no-repeat;
+    background: url("img/sub2.svg") no-repeat;
     z-index: 20;
     height: 256px;
     width: 610px;
@@ -218,7 +218,7 @@ body {
   .content__sale__picture {
     width: 420px;
     height: 256px;
-    background: url("../img/first_sale_image.png");
+    background: url("img/first_sale_image.png");
     z-index: auto; }
 
 .main-button {
@@ -336,7 +336,7 @@ body {
       padding-left: 32px;
       padding-top: 8px; }
     .content__sale .container-inf {
-      background: url("../img/sub2.svg") no-repeat;
+      background: url("img/sub2.svg") no-repeat;
       z-index: 20;
       height: 196px;
       width: 354px;
@@ -443,7 +443,7 @@ body {
         padding-left: 16px;
         padding-top: 6px; }
       .content__sale .container-inf {
-        background: url("../img/sub2.svg") no-repeat;
+        background: url("img/sub2.svg") no-repeat;
         z-index: 20;
         height: 180px;
         width: 327px;

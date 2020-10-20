@@ -15,7 +15,7 @@ body {
 
 .container {
     font-family: "HelveticaNeueCyr";
-    background: url("../img/first_background.png") no-repeat center center fixed;
+    background: url("img/first_background.png") no-repeat center center fixed;
     background-position: center;
     overflow: hidden;
 }
@@ -246,7 +246,7 @@ body {
             padding-top: 16px
         }
         .container-inf {
-            background: url("../img/sub2.svg") no-repeat;
+            background: url("img/sub2.svg") no-repeat;
             z-index: 20;
             height: 256px;
             width: 610px;
@@ -258,7 +258,7 @@ body {
         &__picture {
             width: 420px;
             height: 256px;
-            background: url("../img/first_sale_image.png");
+            background: url("img/first_sale_image.png");
             z-index: auto;
         }
     }
@@ -400,7 +400,7 @@ body {
                 padding-top: 8px
             }
             .container-inf {
-                background: url("../img/sub2.svg") no-repeat;
+                background: url("img/sub2.svg") no-repeat;
                 z-index: 20;
                 height: 196px;
                 width: 354px;
@@ -533,7 +533,7 @@ body {
                 padding-top: 6px
             }
             .container-inf {
-                background: url("../img/sub2.svg") no-repeat;
+                background: url("img/sub2.svg") no-repeat;
                 z-index: 20;
                 height: 180px;
                 width: 327px;
